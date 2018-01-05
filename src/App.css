@@ -1,0 +1,25 @@
+.container-puzzle {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 272px;
+  border: 2px solid black;
+  font-size: 1.2em;
+}
+
+.puzzle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 64px;
+  height: 64px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.puzzle-empty {
+  width: 64px;
+  height: 64px;
+  border: 2px solid black;
+  background-color: #eee;
+}
